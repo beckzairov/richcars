@@ -153,7 +153,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-4 text-center text-[#F9D607]">Filiallar</h2>
           <ul className='my-8'>
             <li className='text-xl font-bold text-center'>
-             Chilonzor
+             Toshkent
             </li>
             <a href="https://yandex.ru/maps?whatshere%5Bpoint%5D=69.18961760527026%2C41.329361452188095&whatshere%5Bzoom%5D=16.821697&ll=69.19101443615064%2C41.328321619104464&z=16.821697&si=g10gwavhhfpquf49367dxnqg1m" target='_blank' title='Yandex karta lokatsia'>
               <li className="hover:cursor-pointer 
