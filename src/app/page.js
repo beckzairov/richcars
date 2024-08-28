@@ -173,13 +173,12 @@ export default function Home() {
         <section className="services mt-8"> {/* Add margin-top for spacing */}
           <h2 className="text-2xl font-bold mb-4">Xizmatlar</h2>
           <ul className="list-disc pl-6"> {/* Use list-disc for default markers, adjust pl-6 for left padding */}
-            <li>Tanirovka</li>
-            <li>Rangli Qoplamalar</li>
-            <li>Akvaprint</li>
-            <li>Branirovka Kuzov</li>
-            <li>Chexol Polik</li>
-            <li>Shumo Izolyatsiya</li>
-            <li>Keramika</li>
+            <li>Кастоправ - ДТП</li>
+            <li>Вмятина - Без покраски</li>
+            <li>Полировка - Керамика</li>
+            <li>Бронеплёнка - Тонировка</li>
+            <li>Химчистка</li>
+            <li>Шумоизоляция</li>
           </ul>
         </section>
 
