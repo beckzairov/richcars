@@ -1,16 +1,50 @@
+// 'use client';
 import Head from 'next/head';
+// import { useState, useEffect } from 'react';
 
 export default function Home() {
+//   Logic not working maybe later we'll fix it
+//   const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+//   useEffect(() => {
+//     const checkScreenSize = () => {
+//       setIsSmallScreen(window.innerWidth < 768);
+//       console.log(isSmallScreen);
+//       console.log(window.innerWidth < 768);
+//     };
+
+//     checkScreenSize();
+
+//     window.addEventListener('resize', checkScreenSize);
+
+//     return () => {
+//       window.removeEventListener('resize',   
+//  checkScreenSize);
+//     };
+//   }, []);
+
   return (
     <div className="relative bg-black text-white min-h-screen flex flex-col items-center">
       <video
         autoPlay
         loop
         muted
-        className="absolute z-30 h-[100dvh] w-full object-cover"
+        className="absolute block md:hidden z-30 h-[100dvh] w-full object-cover"
       >
         <source
-          src="/videos/car-holo.mp4"
+          src="/videos/original-mobile.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      <video
+        autoPlay
+        loop
+        muted
+        className="hidden absolute md:block z-30 h-[100dvh] w-full object-cover"
+      >
+        <source
+          src="/videos/original.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
@@ -174,7 +208,7 @@ export default function Home() {
                 skew-x-6
                 my-4
                 text-center flex items-center justify-center">
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M444.52 3.52L28.74 195.42c-47.97 22.39-31.98 92.75 19.19 92.75h175.91v175.91c0 51.17 70.36 67.17 92.75 19.19l191.9-415.78c15.99-38.39-25.59-79.97-63.97-63.97z"></path></svg>
+                  <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M444.52 3.52L28.74 195.42c-47.97 22.39-31.98 92.75 19.19 92.75h175.91v175.91c0 51.17 70.36 67.17 92.75 19.19l191.9-415.78c15.99-38.39-25.59-79.97-63.97-63.97z"></path></svg>
                   <span className='pl-2'>Yandex</span>
               </li>
             </a>
@@ -198,7 +232,7 @@ export default function Home() {
                 my-4
                 text-center
                 flex items-center justify-center">
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg>
+                  <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Location_On"><g><path d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"></path><path d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"></path></g></g></svg>
                   <span className='pl-2'>Google Maps</span>
               </li>
             </a>
