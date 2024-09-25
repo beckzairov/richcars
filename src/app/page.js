@@ -134,7 +134,7 @@ export default function Home() {
               hover:shadow-lg
               skew-x-6">
             <a 
-              href="#" 
+              href="https://www.tiktok.com/@richcar_uz?_t=8pxpJwxzEnZ&_r=1" 
               className='flex'
             >
               <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"></path></svg>
@@ -160,7 +160,7 @@ export default function Home() {
               hover:shadow-lg
               skew-x-6">
             <a 
-              href="#" 
+              href="https://youtube.com/@richcar_uz?si=JzC5VzizEcfWNc_L" 
               className="flex"
             >
               <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 576 512" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
@@ -182,6 +182,107 @@ export default function Home() {
           </ul>
         </section>
 
+        <section className='my-8'>
+          <h2 className="text-2xl font-bold mb-4 text-center text-[#F9D607]">Aloqa</h2>
+          <ul className='my-8'>
+          <a href="https://maps.app.goo.gl/M6ftcPFhm9Bk6Xo7A" target='_blank' title='Telegram Admin'>
+              <li className="hover:cursor-pointer 
+                text-[#F9D607]  
+                border-[#F9D607] 
+                border-2
+                px-28 
+                py-2 
+                hover:text-white
+                hover:opacity-85 
+                hover:bg-[#F9D607] 
+                transition 
+                duration-300 
+                font-bold
+                uppercase
+                shadow-md
+                hover:shadow-lg
+                skew-x-6
+                my-4
+                text-center
+                flex items-center justify-center">
+                  <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg>
+                  <span className='pl-2'>Telegram Admin</span>
+              </li>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61556510288267&mibextid=LQQJ4d" target='_blank' title='Facebook'>
+              <li className="hover:cursor-pointer 
+                text-[#F9D607]  
+                border-[#F9D607] 
+                border-2
+                px-28 
+                py-2 
+                hover:text-white
+                hover:opacity-85 
+                hover:bg-[#F9D607] 
+                transition 
+                duration-300 
+                font-bold
+                uppercase
+                shadow-md
+                hover:shadow-lg
+                skew-x-6
+                my-4
+                text-center flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" stroke="currentColor" fill="currentColor" height="1.5em" width="1.5em" viewBox="0 0 50 50">
+                      <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                  </svg>
+                  <span className='pl-2'>Facebook</span>
+              </li>
+            </a>
+            <a href="tel:+998983077005" target='_blank' title='phone'>
+              <li className="hover:cursor-pointer 
+                text-[#F9D607]  
+                border-[#F9D607] 
+                border-2
+                px-28 
+                py-2 
+                hover:text-white
+                hover:opacity-85 
+                hover:bg-[#F9D607] 
+                transition 
+                duration-300 
+                font-bold
+                uppercase
+                shadow-md
+                hover:shadow-lg
+                skew-x-6
+                my-4
+                text-center flex items-center justify-center">
+                  <svg stroke="currentColor" fill="currentColor" height="1.5em" width="1.5em" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path><path d="M15 7a2 2 0 0 1 2 2"></path><path d="M15 3a6 6 0 0 1 6 6"></path></svg>
+                  <span className='pl-2'>+998983077005</span>
+              </li>
+            </a>
+            <a href="tel:+998901866519" target='_blank' title='phone2'>
+              <li className="hover:cursor-pointer 
+                text-[#F9D607]  
+                border-[#F9D607] 
+                border-2
+                px-28 
+                py-2 
+                hover:text-white
+                hover:opacity-85 
+                hover:bg-[#F9D607] 
+                transition 
+                duration-300 
+                font-bold
+                uppercase
+                shadow-md
+                hover:shadow-lg
+                skew-x-6
+                my-4
+                text-center flex items-center justify-center">
+                  <svg stroke="currentColor" fill="currentColor" height="1.5em" width="1.5em" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path><path d="M15 7a2 2 0 0 1 2 2"></path><path d="M15 3a6 6 0 0 1 6 6"></path></svg>
+                  <span className='pl-2'>+998901866519</span>
+              </li>
+            </a>
+            
+          </ul>
+        </section>
         <section className='my-8'>
           <h2 className="text-2xl font-bold mb-4 text-center text-[#F9D607]">Filiallar</h2>
           <ul className='my-8'>
