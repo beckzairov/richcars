@@ -108,12 +108,14 @@ export default function Home() {
               hover:shadow-lg
               skew-x-6">
             <a 
-              href="#" 
+              href="https://www.facebook.com/profile.php?id=61556510288267&mibextid=LQQJ4d" target='_blank' title='Facebook'
               className='flex'
             >
-              <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" stroke="currentColor" fill="currentColor" height="1.5em" width="1.5em" viewBox="0 0 50 50">
+                      <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                  </svg>
               <span className='ml-4 xl:hidden'>
-                Telegram
+                Facebook
               </span>
             </a>
           </li>
@@ -185,7 +187,7 @@ export default function Home() {
         <section className='my-8'>
           <h2 className="text-2xl font-bold mb-4 text-center text-[#F9D607]">Aloqa</h2>
           <ul className='my-8'>
-          <a href="https://maps.app.goo.gl/M6ftcPFhm9Bk6Xo7A" target='_blank' title='Telegram Admin'>
+          <a href="https://t.me/+998983077005" target='_blank' title='Telegram Admin'>
               <li className="hover:cursor-pointer 
                 text-[#F9D607]  
                 border-[#F9D607] 
@@ -207,31 +209,6 @@ export default function Home() {
                 flex items-center justify-center">
                   <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg>
                   <span className='pl-2'>Telegram Admin</span>
-              </li>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=61556510288267&mibextid=LQQJ4d" target='_blank' title='Facebook'>
-              <li className="hover:cursor-pointer 
-                text-[#F9D607]  
-                border-[#F9D607] 
-                border-2
-                px-28 
-                py-2 
-                hover:text-white
-                hover:opacity-85 
-                hover:bg-[#F9D607] 
-                transition 
-                duration-300 
-                font-bold
-                uppercase
-                shadow-md
-                hover:shadow-lg
-                skew-x-6
-                my-4
-                text-center flex items-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" stroke="currentColor" fill="currentColor" height="1.5em" width="1.5em" viewBox="0 0 50 50">
-                      <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
-                  </svg>
-                  <span className='pl-2'>Facebook</span>
               </li>
             </a>
             <a href="tel:+998983077005" target='_blank' title='phone'>
