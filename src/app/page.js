@@ -60,6 +60,8 @@ export default function Home() {
         <p className="text-lg mb-6 italic text-center border-l-4 border-[#F9D607] pl-4">Life is too short to drive slow.</p>
         <ul className="flex flex-col items-center space-y-8 xl:flex-row xl:justify-between xl:space-y-0 w-full mx-auto">
           <li  className='
+              w-full
+              xl:w-auto
               hover:cursor-pointer 
               text-[#F9D607]  
               border-[#F9D607] 
@@ -76,6 +78,7 @@ export default function Home() {
               shadow-md
               hover:shadow-lg
               skew-x-6
+              flex justify-center
             '>
             <a
               href="https://www.instagram.com/richcar.uz/"
@@ -91,22 +94,25 @@ export default function Home() {
               </span>
             </a>
           </li>
-          <li className="hover:cursor-pointer 
-              text-[#F9D607]  
-              border-[#F9D607] 
-              border-2
-              px-28 
-              py-2 
-              hover:text-white
-              hover:opacity-85 
-              hover:bg-[#F9D607] 
-              transition 
-              duration-300 
-              font-bold
-              uppercase
-              shadow-md
-              hover:shadow-lg
-              skew-x-6">
+          <li className="w-full
+                          xl:w-auto
+                          hover:cursor-pointer 
+                          text-[#F9D607]  
+                          border-[#F9D607] 
+                          border-2
+                          px-28 
+                          py-2 
+                          hover:text-white
+                          hover:opacity-85 
+                          hover:bg-[#F9D607] 
+                          transition 
+                          duration-300 
+                          font-bold
+                          uppercase
+                          shadow-md
+                          hover:shadow-lg
+                          skew-x-6
+                          flex justify-center">
             <a 
               href="https://www.facebook.com/profile.php?id=61556510288267&mibextid=LQQJ4d" target='_blank' title='Facebook'
               className='flex'
@@ -119,22 +125,25 @@ export default function Home() {
               </span>
             </a>
           </li>
-          <li className="hover:cursor-pointer 
-              text-[#F9D607]  
-              border-[#F9D607] 
-              border-2
-              px-28 
-              py-2 
-              hover:text-white
-              hover:opacity-85 
-              hover:bg-[#F9D607] 
-              transition 
-              duration-300 
-              font-bold
-              uppercase
-              shadow-md
-              hover:shadow-lg
-              skew-x-6">
+          <li className="w-full
+                      xl:w-auto
+                      hover:cursor-pointer 
+                      text-[#F9D607]  
+                      border-[#F9D607] 
+                      border-2
+                      px-28 
+                      py-2 
+                      hover:text-white
+                      hover:opacity-85 
+                      hover:bg-[#F9D607] 
+                      transition 
+                      duration-300 
+                      font-bold
+                      uppercase
+                      shadow-md
+                      hover:shadow-lg
+                      skew-x-6
+                      flex justify-center">
             <a 
               href="https://www.tiktok.com/@richcar_uz?_t=8pxpJwxzEnZ&_r=1" 
               className='flex'
@@ -145,22 +154,25 @@ export default function Home() {
               </span>
             </a>
           </li>
-          <li className="hover:cursor-pointer 
-              text-[#F9D607]  
-              border-[#F9D607] 
-              border-2
-              px-28 
-              py-2 
-              hover:text-white
-              hover:opacity-85 
-              hover:bg-[#F9D607] 
-              transition 
-              duration-300 
-              font-bold
-              uppercase
-              shadow-md
-              hover:shadow-lg
-              skew-x-6">
+          <li className="w-full
+                        xl:w-auto
+                        hover:cursor-pointer 
+                        text-[#F9D607]  
+                        border-[#F9D607] 
+                        border-2
+                        px-28 
+                        py-2 
+                        hover:text-white
+                        hover:opacity-85 
+                        hover:bg-[#F9D607] 
+                        transition 
+                        duration-300 
+                        font-bold
+                        uppercase
+                        shadow-md
+                        hover:shadow-lg
+                        skew-x-6
+                        flex justify-center">
             <a 
               href="https://youtube.com/@richcar_uz?si=JzC5VzizEcfWNc_L" 
               className="flex"
