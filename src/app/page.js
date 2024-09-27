@@ -301,7 +301,7 @@ export default function Home() {
                   <span className='pl-2'>Yandex</span>
               </li>
             </a>
-            <a href="https://maps.app.goo.gl/M6ftcPFhm9Bk6Xo7A" target='_blank' title='Google karta lokatsia'>
+            <a href="https://maps.app.goo.gl/3N4bik6Y7KAuCgST9" target='_blank' title='Google karta lokatsia'>
               <li className="hover:cursor-pointer 
                 text-[#F9D607]  
                 border-[#F9D607] 
