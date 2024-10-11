@@ -25,32 +25,21 @@ export default function Home() {
 
   return (
     <div className="relative bg-black text-white min-h-screen flex flex-col items-center">
-      <video
-        autoPlay
-        loop
-        muted
+      {/* Image for small screens */}
+      <img
+        src="/images/original-mobile.jpg"
+        alt="Background"
         className="absolute block md:hidden z-30 h-[100dvh] w-full object-cover"
-      >
-        <source
-          src="/videos/original-mobile.mp4"
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
-      <video
-        autoPlay
-        loop
-        muted
-        className="hidden absolute md:block z-30 h-[100dvh] w-full object-cover"
-      >
-        <source
-          src="/videos/original.mp4"
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
-      </video>
+      />
+
+      {/* Image for larger screens */}
+      <img
+        src="/images/original.jpg"
+        alt="Background"
+        className="hidden md:block absolute z-30 h-[100dvh] w-full object-cover"
+      />
       <Head>
-        <title>My Taplink Page</title>
+        <title>Richcar UZ</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
       </Head>
       
